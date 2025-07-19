@@ -1,0 +1,79 @@
+{
+  "extends": "./.nuxt/tsconfig.json",
+  "compilerOptions": {
+    // Modern JavaScript/TypeScript target
+    "target": "ES2022",
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    
+    // Library support
+    "lib": ["ES2022", "DOM", "DOM.Iterable"],
+    
+    // Strict type checking (aligned with Nuxt 4)
+    "strict": true,
+    "strictNullChecks": false,
+    "exactOptionalPropertyTypes": false,
+    "noUncheckedIndexedAccess": true,
+    "noImplicitOverride": true,
+    
+    // Module system
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    
+    // Emit settings
+    "sourceMap": true,
+    "declaration": false,
+    "noEmit": true,
+    
+    // Path mapping
+    "baseUrl": ".",
+    "paths": {
+      "@framework/*": ["public/sdk/Framework/src/*"],
+      "~/*": ["./*"],
+      "@/*": ["./*"],
+      "#app": ["./.nuxt/types/app"],
+      "#imports": ["./.nuxt/types/imports"]
+    },
+    
+    // Compatibility and performance
+    "skipLibCheck": true,
+    "allowJs": true,
+    "verbatimModuleSyntax": true,
+    
+    // Vue and JSX support
+    "jsx": "preserve",
+    "allowImportingTsExtensions": false,
+    
+    // Additional settings for Cubism SDK compatibility
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true
+  },
+  
+  // Type root for better module resolution
+  "typeRoots": [
+    "./node_modules/@types",
+    "./.nuxt/types"
+  ],
+  
+  // Include files
+  "include": [
+    "**/*.ts",
+    "**/*.tsx",
+    "**/*.vue",
+    "**/*.js",
+    "**/*.jsx",
+    "../../../Framework/src/**/*.ts",
+    ".nuxt/types/**/*"
+  ],
+  
+  // Exclude unnecessary files
+  "exclude": [
+    "node_modules",
+    "dist",
+    ".nuxt/dist",
+    ".output"
+  ]
+}
