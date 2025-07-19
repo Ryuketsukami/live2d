@@ -1,5 +1,6 @@
 // nuxt.config.ts
 import path from 'path'
+import tailwindcss from "@tailwindcss/vite";
 
 const config = {
   // Enable Nuxt 4 features
@@ -33,6 +34,10 @@ const config = {
       extensions: ['.ts', '.js', '.vue', '.json'],
       alias: {
         '@framework': path.resolve(__dirname, 'public/sdk/Framework/src'),
+        // '@framework': path.resolve(__dirname, 'public/sdk/Framework/src'),
+        '@components': path.resolve(__dirname, "app/components"),
+        '~/lib': path.resolve(__dirname, 'lib'),
+        '@/lib': path.resolve(__dirname, 'lib'),
       },
     },
     build: {
@@ -51,6 +56,9 @@ const config = {
       // Define global for Live2D
       global: 'globalThis',
     },
+    plugins: [
+      tailwindcss(),
+    ],
   },
 
   // Add app configuration for client-side setup
@@ -85,7 +93,7 @@ const config = {
     },
   },
 
-  css: ['~/assets/css/reset.css'],
+  css: ['~/assets/css/reset.css', '~/assets/css/main.css', "assets/css/main.css"],
 
   content: {},
   image: {},

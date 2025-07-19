@@ -1,5 +1,5 @@
 <template>
-  <div class="default-layout">
+  <div class="default-layout lg:p-10 relative">
     <div class="live2d-container">
       <div v-if="!coreLoaded" class="loading">
         Loading Live2D Core...
@@ -7,13 +7,13 @@
       <div v-else-if="!appInitialized" class="loading">
         Initializing Live2D App...
       </div>
-      
       <div class="canvas-outer-container">
         <div id="live2d-canvas-container" ref="canvasContainer"></div>
       </div>
       <!-- Canvas container - canvases will be added here by LAppDelegate -->
     </div>
     <slot />
+    <div class="absolute inset-x-0 top-0 h-5 bg-gradient-to-b from-black/50 to-transparent pointer-events-none"></div>
   </div>
 </template>
 
@@ -147,9 +147,8 @@ export default {
 <style scoped>
 
 .default-layout {
-  height: 100vh;
-  background-color: aqua;
-  padding: 40px;
+  min-height: 100vh;
+  background-color: #2a2827;
 }
 
 .live2d-container {

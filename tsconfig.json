@@ -34,6 +34,9 @@
       "@framework/*": ["public/sdk/Framework/src/*"],
       "~/*": ["./*"],
       "@/*": ["./*"],
+      "@/components/*": ["app/components/*"],
+      "~/lib/*": ["./lib/*"],
+      "@/lib/*": ["./lib/*"],
       "#app": ["./.nuxt/types/app"],
       "#imports": ["./.nuxt/types/imports"]
     },
