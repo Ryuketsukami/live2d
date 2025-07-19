@@ -85,6 +85,8 @@ const config = {
     },
   },
 
+  css: ['~/assets/css/reset.css'],
+
   content: {},
   image: {},
 
