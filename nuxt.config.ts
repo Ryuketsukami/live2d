@@ -35,9 +35,8 @@ const config = {
       alias: {
         '@framework': path.resolve(__dirname, 'public/sdk/Framework/src'),
         // '@framework': path.resolve(__dirname, 'public/sdk/Framework/src'),
-        '@components': path.resolve(__dirname, "app/components"),
-        '~/lib': path.resolve(__dirname, 'lib'),
-        '@/lib': path.resolve(__dirname, 'lib'),
+        '@': path.resolve(__dirname, "app"),
+        '~': path.resolve(__dirname, './'),
       },
     },
     build: {
@@ -93,7 +92,7 @@ const config = {
     },
   },
 
-  css: ['~/assets/css/reset.css', '~/assets/css/main.css', "assets/css/main.css"],
+  css: ['@/assets/css/reset.css', '@/assets/css/main.css', "assets/css/main.css"],
 
   content: {},
   image: {},

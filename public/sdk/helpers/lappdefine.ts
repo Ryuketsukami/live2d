@@ -32,6 +32,9 @@ export const ViewLogicalMaxRight = 2.0;
 export const ViewLogicalMaxBottom = -2.0;
 export const ViewLogicalMaxTop = 2.0;
 
+export const xViewOffsetScale = 0;
+export const yViewOffsetScale = 0.3154;
+
 // 相対パス
 export const ResourcesPath = '../../resources/';
 
@@ -48,7 +51,8 @@ export const PowerImageName = 'CloseNormal.png';
 // モデルを配置したディレクトリ名の配列
 // ディレクトリ名とmodel3.jsonの名前を一致させておくこと
 export const ModelDir: string[] = [
-  'Mao',
+  // 'Mao',
+  '红伞伞',
 ];
 export const ModelDirSize: number = ModelDir.length;
 

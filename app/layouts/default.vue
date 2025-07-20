@@ -1,5 +1,5 @@
 <template>
-  <div class="default-layout lg:p-10 relative">
+  <div class="default-layout relative">
     <div class="live2d-container">
       <div v-if="!coreLoaded" class="loading">
         Loading Live2D Core...

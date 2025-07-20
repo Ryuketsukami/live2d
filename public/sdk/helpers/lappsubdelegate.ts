@@ -261,10 +261,9 @@ export class LAppSubdelegate {
   }
 
   /**
-   * マウスポインタが動いたら呼ばれる。
+   * Function to register move of mouse
    */
   public onPointMoved(pageX: number, pageY: number): void {
-    console.log('zaaaa', this._captured )
     // if (!this._captured) {
     //   return;
     // }

@@ -1,0 +1,487 @@
+{
+	"Version": 3,
+	"Parameters": [
+		{
+			"Id": "Param",
+			"GroupId": "ParamGroup",
+			"Name": "变小"
+		},
+		{
+			"Id": "Param5",
+			"GroupId": "ParamGroup",
+			"Name": "帽子切换"
+		},
+		{
+			"Id": "Param6",
+			"GroupId": "ParamGroup",
+			"Name": "帽子关闭"
+		},
+		{
+			"Id": "Param2",
+			"GroupId": "ParamGroup",
+			"Name": "变没"
+		},
+		{
+			"Id": "Param7",
+			"GroupId": "ParamGroup",
+			"Name": "服装1"
+		},
+		{
+			"Id": "Param8",
+			"GroupId": "ParamGroup",
+			"Name": "服装2"
+		},
+		{
+			"Id": "Param9",
+			"GroupId": "ParamGroup",
+			"Name": "服装3"
+		},
+		{
+			"Id": "Param10",
+			"GroupId": "ParamGroup",
+			"Name": "长裙"
+		},
+		{
+			"Id": "Param11",
+			"GroupId": "ParamGroup",
+			"Name": "发型切换"
+		},
+		{
+			"Id": "Param12",
+			"GroupId": "ParamGroup2",
+			"Name": "黑化"
+		},
+		{
+			"Id": "Param13",
+			"GroupId": "ParamGroup2",
+			"Name": "泪"
+		},
+		{
+			"Id": "Param14",
+			"GroupId": "ParamGroup2",
+			"Name": "星星眼"
+		},
+		{
+			"Id": "Param15",
+			"GroupId": "ParamGroup2",
+			"Name": "爱心眼"
+		},
+		{
+			"Id": "Param16",
+			"GroupId": "ParamGroup2",
+			"Name": "眩晕"
+		},
+		{
+			"Id": "Param17",
+			"GroupId": "ParamGroup3",
+			"Name": "珠子手"
+		},
+		{
+			"Id": "Param18",
+			"GroupId": "ParamGroup3",
+			"Name": "比心"
+		},
+		{
+			"Id": "Param19",
+			"GroupId": "ParamGroup3",
+			"Name": "端茶"
+		},
+		{
+			"Id": "Param33",
+			"GroupId": "ParamGroup4",
+			"Name": "裙子x1"
+		},
+		{
+			"Id": "Param34",
+			"GroupId": "ParamGroup4",
+			"Name": "裙子x2"
+		},
+		{
+			"Id": "Param53",
+			"GroupId": "ParamGroup4",
+			"Name": "左小臂物理"
+		},
+		{
+			"Id": "Param54",
+			"GroupId": "ParamGroup4",
+			"Name": "右小臂物理"
+		},
+		{
+			"Id": "Param55",
+			"GroupId": "ParamGroup4",
+			"Name": "心物理"
+		},
+		{
+			"Id": "Param35",
+			"GroupId": "ParamGroup4",
+			"Name": "裙子y1"
+		},
+		{
+			"Id": "Param36",
+			"GroupId": "ParamGroup4",
+			"Name": "裙子y2"
+		},
+		{
+			"Id": "Param23",
+			"GroupId": "ParamGroup5",
+			"Name": "短发x1"
+		},
+		{
+			"Id": "Param39",
+			"GroupId": "ParamGroup5",
+			"Name": "短发x3"
+		},
+		{
+			"Id": "Param24",
+			"GroupId": "ParamGroup5",
+			"Name": "左发梢"
+		},
+		{
+			"Id": "Param40",
+			"GroupId": "ParamGroup5",
+			"Name": "右发梢"
+		},
+		{
+			"Id": "Param25",
+			"GroupId": "ParamGroup5",
+			"Name": "短发y1"
+		},
+		{
+			"Id": "Param26",
+			"GroupId": "ParamGroup5",
+			"Name": "短发y2"
+		},
+		{
+			"Id": "Param28",
+			"GroupId": "ParamGroup5",
+			"Name": "长发z"
+		},
+		{
+			"Id": "Param27",
+			"GroupId": "ParamGroup5",
+			"Name": "长发x1"
+		},
+		{
+			"Id": "Param29",
+			"GroupId": "ParamGroup5",
+			"Name": "长发x2"
+		},
+		{
+			"Id": "Param30",
+			"GroupId": "ParamGroup5",
+			"Name": "长发y1"
+		},
+		{
+			"Id": "Param31",
+			"GroupId": "ParamGroup5",
+			"Name": "长发y2"
+		},
+		{
+			"Id": "Param32",
+			"GroupId": "ParamGroup5",
+			"Name": "长发y3"
+		},
+		{
+			"Id": "Param41",
+			"GroupId": "ParamGroup5",
+			"Name": "长后发稍左"
+		},
+		{
+			"Id": "Param42",
+			"GroupId": "ParamGroup5",
+			"Name": "长后发稍右"
+		},
+		{
+			"Id": "ParamCheek",
+			"GroupId": "ParamGroup6",
+			"Name": "脸颊泛红"
+		},
+		{
+			"Id": "Param21",
+			"GroupId": "ParamGroup6",
+			"Name": "歪嘴物理"
+		},
+		{
+			"Id": "Param43",
+			"GroupId": "ParamGroup6",
+			"Name": "星星物理"
+		},
+		{
+			"Id": "Param44",
+			"GroupId": "ParamGroup6",
+			"Name": "高光x"
+		},
+		{
+			"Id": "Param49",
+			"GroupId": "ParamGroup6",
+			"Name": "左瞳"
+		},
+		{
+			"Id": "Param50",
+			"GroupId": "ParamGroup6",
+			"Name": "右瞳"
+		},
+		{
+			"Id": "Param45",
+			"GroupId": "ParamGroup6",
+			"Name": "高光y"
+		},
+		{
+			"Id": "Param46",
+			"GroupId": "ParamGroup6",
+			"Name": "左星星物理"
+		},
+		{
+			"Id": "Param47",
+			"GroupId": "ParamGroup6",
+			"Name": "左高光x"
+		},
+		{
+			"Id": "Param48",
+			"GroupId": "ParamGroup6",
+			"Name": "左高光y"
+		},
+		{
+			"Id": "Param51",
+			"GroupId": "ParamGroup7",
+			"Name": "流泪"
+		},
+		{
+			"Id": "Param52",
+			"GroupId": "ParamGroup7",
+			"Name": "眩晕"
+		},
+		{
+			"Id": "ParamAngleX",
+			"GroupId": "",
+			"Name": "角度 X"
+		},
+		{
+			"Id": "ParamAngleY",
+			"GroupId": "",
+			"Name": "角度 Y"
+		},
+		{
+			"Id": "ParamAngleZ",
+			"GroupId": "",
+			"Name": "角度 Z"
+		},
+		{
+			"Id": "ParamBodyAngleX",
+			"GroupId": "",
+			"Name": "身体旋转　X"
+		},
+		{
+			"Id": "ParamEyeLOpen",
+			"GroupId": "",
+			"Name": "左眼　开闭"
+		},
+		{
+			"Id": "ParamEyeLSmile",
+			"GroupId": "",
+			"Name": "左眼　微笑"
+		},
+		{
+			"Id": "ParamEyeROpen",
+			"GroupId": "",
+			"Name": "右眼"
+		},
+		{
+			"Id": "ParamEyeRSmile",
+			"GroupId": "",
+			"Name": "右眼　微笑"
+		},
+		{
+			"Id": "ParamEyeBallX",
+			"GroupId": "",
+			"Name": "眼珠 X"
+		},
+		{
+			"Id": "ParamEyeBallY",
+			"GroupId": "",
+			"Name": "眼珠 Y"
+		},
+		{
+			"Id": "ParamBrowLY",
+			"GroupId": "",
+			"Name": "左眉上下"
+		},
+		{
+			"Id": "ParamMouthForm",
+			"GroupId": "",
+			"Name": "嘴　变形"
+		},
+		{
+			"Id": "ParamMouthOpenY",
+			"GroupId": "",
+			"Name": "嘴　张开和闭合"
+		},
+		{
+			"Id": "Param20",
+			"GroupId": "",
+			"Name": "歪嘴"
+		},
+		{
+			"Id": "Param22",
+			"GroupId": "",
+			"Name": "鼓脸"
+		},
+		{
+			"Id": "ParamBreath",
+			"GroupId": "",
+			"Name": "呼吸"
+		},
+		{
+			"Id": "Param3",
+			"GroupId": "",
+			"Name": "帽子怪物理"
+		},
+		{
+			"Id": "Param4",
+			"GroupId": "",
+			"Name": "帽子怪物理2"
+		},
+		{
+			"Id": "Param37",
+			"GroupId": "",
+			"Name": "水吉量贩模型"
+		}
+	],
+	"ParameterGroups": [
+		{
+			"Id": "ParamGroup",
+			"GroupId": "",
+			"Name": "外形切换"
+		},
+		{
+			"Id": "ParamGroup2",
+			"GroupId": "",
+			"Name": "表情切换"
+		},
+		{
+			"Id": "ParamGroup3",
+			"GroupId": "",
+			"Name": "动作切换"
+		},
+		{
+			"Id": "ParamGroup4",
+			"GroupId": "",
+			"Name": "衣服物理"
+		},
+		{
+			"Id": "ParamGroup5",
+			"GroupId": "",
+			"Name": "头发物理"
+		},
+		{
+			"Id": "ParamGroup6",
+			"GroupId": "",
+			"Name": "面部物理"
+		},
+		{
+			"Id": "ParamGroup7",
+			"GroupId": "",
+			"Name": "循环动画"
+		}
+	],
+	"Parts": [
+		{
+			"Id": "Part20",
+			"Name": "红伞伞补.psd"
+		},
+		{
+			"Id": "Part19",
+			"Name": "红伞伞遮罩.psd"
+		},
+		{
+			"Id": "Part18",
+			"Name": "红伞伞痣.psd"
+		},
+		{
+			"Id": "Part",
+			"Name": "端茶"
+		},
+		{
+			"Id": "Part2",
+			"Name": "比心"
+		},
+		{
+			"Id": "Part3",
+			"Name": "珠子手"
+		},
+		{
+			"Id": "Part4",
+			"Name": "女巫帽前(2)"
+		},
+		{
+			"Id": "Part5",
+			"Name": "女巫帽前"
+		},
+		{
+			"Id": "Part6",
+			"Name": "本体"
+		},
+		{
+			"Id": "Part7",
+			"Name": "前发"
+		},
+		{
+			"Id": "Part8",
+			"Name": "脸"
+		},
+		{
+			"Id": "Part11",
+			"Name": "身体"
+		},
+		{
+			"Id": "Part14",
+			"Name": "腿"
+		},
+		{
+			"Id": "Part15",
+			"Name": "伊丽莎白帽"
+		},
+		{
+			"Id": "Part16",
+			"Name": "短后发"
+		},
+		{
+			"Id": "Part17",
+			"Name": "长后发"
+		},
+		{
+			"Id": "Part9",
+			"Name": "眼睛"
+		},
+		{
+			"Id": "Part10",
+			"Name": "嘴巴"
+		},
+		{
+			"Id": "Part12",
+			"Name": "躯干"
+		},
+		{
+			"Id": "Part13",
+			"Name": "胳膊"
+		}
+	],
+	"CombinedParameters": [
+		[
+			"Param25",
+			"Param26"
+		],
+		[
+			"ParamAngleX",
+			"ParamAngleY"
+		],
+		[
+			"ParamEyeBallX",
+			"ParamEyeBallY"
+		],
+		[
+			"ParamMouthForm",
+			"ParamMouthOpenY"
+		]
+	]
+}

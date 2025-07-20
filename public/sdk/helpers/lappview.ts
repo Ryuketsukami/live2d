@@ -207,11 +207,13 @@ export class LAppView {
 
   /**
    * タッチが終了したら呼ばれる。
+   * TODO: make it so the model does a motion once this is done
    *
    * @param pointX スクリーンX座標
    * @param pointY スクリーンY座標
    */
   public onTouchesEnded(pointX: number, pointY: number): void {
+    return
     const posX = pointX * window.devicePixelRatio;
     const posY = pointY * window.devicePixelRatio;
 
@@ -251,7 +253,8 @@ export class LAppView {
    * @param deviceY デバイスY座標
    */
   public transformViewY(deviceY: number): number {
-    const screenY: number = this._deviceToScreen.transformY(deviceY); // 論理座標変換した座標を取得。
+    const { width, height } = this._subdelegate.getCanvas();
+    const screenY: number = this._deviceToScreen.transformY(deviceY+(height * LAppDefine.yViewOffsetScale)); // 論理座標変換した座標を取得。
     return this._viewMatrix.invertTransformY(screenY);
   }
 

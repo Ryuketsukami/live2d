@@ -1,0 +1,106 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "红伞伞.moc3",
+		"Textures": [
+			"红伞伞.4096/texture_00.png"
+		],
+		"Physics": "红伞伞.physics3.json",
+		"DisplayInfo": "红伞伞.cdi3.json",
+		"Expressions": [
+			{
+				"Name": "exp_01",
+				"File": "expressions/关闭帽子.exp3.json"
+			},
+			{
+				"Name": "exp_02",
+				"File": "expressions/变小.exp3.json"
+			},
+			{
+				"Name": "exp_03",
+				"File": "expressions/变没.exp3.json"
+			},
+			{
+				"Name": "exp_04",
+				"File": "expressions/喝茶.exp3.json"
+			},
+			{
+				"Name": "exp_05",
+				"File": "expressions/换帽子.exp3.json"
+			},
+			{
+				"Name": "exp_06",
+				"File": "expressions/星星.exp3.json"
+			},
+			{
+				"Name": "exp_07",
+				"File": "expressions/服装1.exp3.json"
+			},
+			{
+				"Name": "exp_08",
+				"File": "expressions/服装2.exp3.json"
+			},
+			{
+				"Name": "exp_09",
+				"File": "expressions/服装3.exp3.json"
+			},
+			{
+				"Name": "exp_10",
+				"File": "expressions/水吉量贩模型.exp3.json"
+			},
+			{
+				"Name": "exp_11",
+				"File": "expressions/流泪.exp3.json"
+			},
+			{
+				"Name": "exp_12",
+				"File": "expressions/爱心.exp3.json"
+			},
+			{
+				"Name": "exp_13",
+				"File": "expressions/珠子手.exp3.json"
+			},
+			{
+				"Name": "exp_14",
+				"File": "expressions/眩晕.exp3.json"
+			},
+			{
+				"Name": "exp_15",
+				"File": "expressions/短发.exp3.json"
+			},
+			{
+				"Name": "exp_16",
+				"File": "expressions/裙子变长.exp3.json"
+			},
+			{
+				"Name": "exp_17",
+				"File": "expressions/黑化.exp3.json"
+			},
+			{
+				"Name": "exp_18",
+				"File": "expressions/比心.exp3.json"
+			}
+		],
+		"Motions": {
+			"Idle": [
+				{
+					"File": "motions/红伞伞待机.motion3.json"
+				}
+			],
+			"TapBody": [
+			]
+		}
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": []
+		},
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": []
+		}
+	]
+}
